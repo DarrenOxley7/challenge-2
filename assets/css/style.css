@@ -60,11 +60,11 @@ nav a {
 }
 
 /*This sets the properties and image size in the hero section*/
-.hero img{ display: flex;
+.hero img { display: flex;
     max-width: 250px;
     margin: 0;
     padding-top: 15px;
-    }
+}
     
 
 /*This sets the box/grid properties main section*/
@@ -126,21 +126,21 @@ main section {
 }
 
 
-#work-1 {
+#furniture-page {
     grid-area: sec-4;
     background-image: url(../images/Furniture-website.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#work-2 {
+#horiseon-page {
     grid-area: sec-5;
     background-image: url(../images/Horiseon\ Homepage.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#work-3 {
+#prework-page {
     grid-area: sec-6;
     background-image: url(../images/Prework-image.png);
     background-repeat: no-repeat;
@@ -164,7 +164,7 @@ main section {
     color: white;
     font-size: 18px;
     padding-left: 25px;
-      }
+}
 
 .heading a {
     color: white;
@@ -219,7 +219,7 @@ footer {
         'sec-5 sec-6'
         'sec-7 sec-7'
         'sec-8 sec-8'
-}
+    }
 }
 
 @media (max-width: 768px) {
